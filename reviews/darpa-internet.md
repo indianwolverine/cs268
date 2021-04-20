@@ -65,3 +65,35 @@ Noticibly, accountability not a high priority goal since this was developed in a
 
 - byte oriented instead of packet oriented; allows coalescing different small data into same packet and also splitting up data across packets
 
+
+### What are the key strengths/contributions of this paper?
+
+This paper tries to answer the question - How have the original objectives of internet architecture led to the current design? 
+
+According to Clark, the main goals of the internet were to interconnect existing networks by providing a convinient communication abstraction and to be architected in such a way as to allow federation and variability rather than rigidity and performance.
+
+It explains that the origins of a packet switching based network design are rooted in the need for survivability of the network under failure scenarios (given that ARPANET was originally a military project) as well as most networks being interconnected already using packet switching protocols. Moreover, the use of switches to forward packets comes directly from ARPANET as well.
+
+Originally, the TCP and IP layers were much more tightly coupled in the architecture, but Clark explains the need to create separate layers arising from several applications not working well with the guarantees of reliability and in order packet delivery which TCP provides by default (remote debugging, voice calls etc.). Ideas from the end to end principle are also at play here regarding where to place responsibility for e.g. reliability (end hosts vs. network).
+
+Other goals of the internet were not as well addressed by the architecture, such as concerns of security, cost effectiveness, distributed administration, performance, and accountability. However, given the previously outlined important goals of the internet architecture, Clark considers these design flaws minor.
+
+### What, if any, would you say are the weaknesses of this paper?
+
+While the internet architecture is indeed admirable, it would have been nice if Clark went into more depth into it's flaws with regards to security, accountability, and performance, and perhaps outlined alternative architectural decisions which might mitigate these. Along the same lines, while it is interesting to see why the architecture is the way it is, it would also be interesting to see why it isn't another way. 
+
+### Would you say this is an important paper? Why?
+
+It's important to study the motivations behind design decisions rather than taking designs as standalone doctrines without any justification. Given these motivations, it becomes easier to reason about alternative designs when assumptions in the environment change. This paper is important as it shows that the internet was not architected in a vacuum, and will need to evolve to meet the demands of the current environment. 
+
+### What, if anything, did you find surprising about this paper?
+
+It's surprising that the internet exists at all! It seems that most of the questions we're asking nowadays are concerned with squeezing every last bit of performance out of machines and networks, which the early internet designers certainly could have done if they came up with a more rigid design which required certain strict semantics from networks it connected. But instead, the internet is, very surprisingly, architected with the goal of supporting as much variation as possible. Instead of building on top of existing networks, it seems just a probable that the designers could have built an entirely new network, without the debt of supporting existing networks.
+
+### Any other comments/thoughts? (This is a good place to note topics that you'd like to see discussed in class)
+
+Has circuit switching been implemented at any scale, for example? If not switches, then what other kinds of hardware are possible? Why not a whole system built on the assumption of using only commodity hardware? After all, we give up a lot of control and privacy as users to big telcos by using their backbone networks and even anonymity technologies such as Tor fail when adversaries control a majority of hosts.
+
+### Did you enjoy reading this paper?
+
+Yes!
