@@ -1,0 +1,155 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{9}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Al-Fares, Loukissas, and Vahdat}{Al-Fares
+  et~al\mbox{.}}{2008}]%
+        {fattree}
+\bibfield{author}{\bibinfo{person}{Mohammad Al-Fares},
+  \bibinfo{person}{Alexander Loukissas}, {and} \bibinfo{person}{Amin Vahdat}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{A scalable, commodity data center network
+  architecture}.
+\newblock \bibinfo{journal}{{\em ACM SIGCOMM Computer Communication Review\/}}
+  \bibinfo{volume}{38}, \bibinfo{number}{4} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{63--74}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{et~al.}{et~al.}{2014}]%
+        {p4}
+\bibfield{author}{\bibinfo{person}{Pat~Bosshart et al.}}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{P4: Programming protocol-independent packet
+  processors}.
+\newblock \bibinfo{journal}{{\em ACM SIGCOMM Computer Communication Review\/}}
+  \bibinfo{volume}{44}, \bibinfo{number}{3} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{87--95}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{et~al.}{et~al.}{2017}]%
+        {microburst}
+\bibfield{author}{\bibinfo{person}{Qiao~Zhang et al.}}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{High-resolution measurement of data center
+  microbursts}.
+\newblock \bibinfo{journal}{{\em Proceedings of the 2017 Internet Measurement
+  Conference\/}} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feamster, Rexford, and Zegura}{Feamster
+  et~al\mbox{.}}{2014}]%
+        {sdn}
+\bibfield{author}{\bibinfo{person}{Nick Feamster}, \bibinfo{person}{Jennifer
+  Rexford}, {and} \bibinfo{person}{Ellen Zegura}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The road to SDN: an intellectual history of
+  programmable networks}.
+\newblock \bibinfo{journal}{{\em ACM SIGCOMM Computer Communication Review\/}}
+  \bibinfo{volume}{44}, \bibinfo{number}{2} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{87--98}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Intel}{Intel}{2021}]%
+        {tofino}
+\bibfield{author}{\bibinfo{person}{Intel}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Intel Tofino}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{https://www.intel.com/content/www/us/en/products/network-io/programmable-ethernet-switch/tofino-series/tofino.html}}
+\newblock
+\shownote{Last accessed 12 May 2021.}
+
+
+\bibitem[\protect\citeauthoryear{Satish and Srivastava}{Satish and
+  Srivastava}{2021}]%
+        {nisa}
+\bibfield{author}{\bibinfo{person}{Vishal Satish} {and} \bibinfo{person}{Aditya
+  Srivastava}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{NISA}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{https://github.com/indianwolverine/nisa}}
+\newblock
+\shownote{Last accessed 12 May 2021.}
+
+
+\bibitem[\protect\citeauthoryear{Team}{Team}{2021a}]%
+        {mininet}
+\bibfield{author}{\bibinfo{person}{Mininet~Dev Team}.}
+  \bibinfo{year}{2021}\natexlab{a}.
+\newblock \bibinfo{title}{Mininet}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{http://mininet.org/}}
+\newblock
+\shownote{Last accessed 12 May 2021.}
+
+
+\bibitem[\protect\citeauthoryear{Team}{Team}{2021b}]%
+        {scapy}
+\bibfield{author}{\bibinfo{person}{Scapy~Dev Team}.}
+  \bibinfo{year}{2021}\natexlab{b}.
+\newblock \bibinfo{title}{Scapy}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{https://scapy.net/}}
+\newblock
+\shownote{Last accessed 12 May 2021.}
+
+
+\bibitem[\protect\citeauthoryear{Tennenhouse and Wetherall}{Tennenhouse and
+  Wetherall}{1996}]%
+        {active}
+\bibfield{author}{\bibinfo{person}{D.~L. Tennenhouse} {and}
+  \bibinfo{person}{D.~J. Wetherall}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Towards an Active Network Architecture}.
+\newblock \bibinfo{journal}{{\em ACM SIGCOMM Computer Communication Review\/}}
+  \bibinfo{volume}{26}, \bibinfo{number}{2} (\bibinfo{year}{1996}),
+  \bibinfo{pages}{5--18}.
+\newblock
+
+
+\end{thebibliography}

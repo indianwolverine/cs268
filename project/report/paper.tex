@@ -1,0 +1,49 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage[english]{babel}
+
+% Copyright
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference info
+
+\settopmatter{printacmref=false, printccs=false, printfolios=true}
+
+% DOI
+\acmDOI{}
+
+% ISBN
+\acmISBN{}
+
+\begin{document}
+\title{NISA: A Network Instruction Set Architecture for Active Networking}
+
+%\titlenote{Produces the permission block, and copyright information}
+%\subtitle{Extended Abstract}
+
+\author{Vishal Satish and Aditya Srivastava}
+% \author{Firstname Lastname}
+% \authornote{Note}
+% \orcid{1234-5678-9012}
+\affiliation{%
+  \institution{University of California, Berkeley}
+  \streetaddress{}
+  \city{} 
+  \state{} 
+  \postcode{}
+}
+% \email{email@domain.com}
+
+% The default list of authors is too long for headers}
+% \renewcommand{\shortauthors}{X.et al.}
+
+\begin{abstract}
+    Active networking is a networking paradigm in which "active" switches execute instructions encoded in incoming packets as opposed to simply enacting static protocols. This ability to dynamically execute a rich set of instructions for different incoming packets enables a host of opportunities for the network, such as better network introspection and monitoring, network debugging, and novel traffic engineering. The active networking vision previously failed due to the lack of a killer app and the difficulties inherent in deployment. However, with the advent of programmable switches, we envision a new age for active networking. In this paper, we develop a network instruction set architecture (NISA) to demonstrate the utility of active networks and provide a set of primitives to program them \cite{nisa}. Additionally, we show how easy NISA is to use by building a simple network monitoring and debuggability tool on top of it.
+\end{abstract}
+
+\maketitle
+
+\input{body}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{reference}
+
+\end{document}
